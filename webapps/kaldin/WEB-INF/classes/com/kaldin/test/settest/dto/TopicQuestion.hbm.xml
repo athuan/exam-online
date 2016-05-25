@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.test.settest.dto.TopicQuestionDTO" table="exm_test_topic">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exm_test_topic table
+		</meta>
+
+		<id name="dummyid" type="int" column="dummyno">
+			<generator class="native"></generator>
+		</id>
+		<property name="testId" type="string" column="testid"></property>
+		<property name="topicid" type="int" column="topicid"></property>
+		<property name="questioncount" column="countofquestion" type="int"></property>
+		<property name="subjectid" column="subjectid" type="int"></property>
+		<property name="levelid" column="levelid" type="int"></property>
+
+	</class>
+</hibernate-mapping>

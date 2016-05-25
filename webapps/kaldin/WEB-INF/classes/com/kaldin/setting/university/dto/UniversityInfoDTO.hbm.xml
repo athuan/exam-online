@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.setting.university.dto.UniversityInfoDTO" table="exm_university">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exam university
+		</meta>
+
+		<id name="universityId" column="universityid" type="int">
+			<generator class="native"></generator>
+		</id>
+				
+		<property name="universityName" column="universityname" type="string"
+			not-null="true">
+		</property>
+		<property name="city" column="city" type="string"
+			not-null="true">
+		</property>
+
+		<property name="state" column="state" type="string"
+			not-null="true">
+		</property>
+		
+		<property name="country" column="country" type="string"
+			not-null="true">
+		</property>
+  
+         <property name="zip" column="zip" type="int"
+			not-null="true">
+		</property>  
+				
+	</class>
+</hibernate-mapping>

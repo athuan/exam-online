@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- property name="hibernate.connection.datasource">java:comp/env/jdbc/kaldin</property>-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property> 
+        <property name="show_sql">false</property>
+		<property name="hibernate.connection.release_mode">after_transaction</property>
+        <mapping resource="com/kaldin/user/register/dto/PersonalInfo.hbm.xml"/>
+        <mapping resource="com/kaldin/user/register/dto/AcademicInfo.hbm.xml"/>
+        <mapping resource="com/kaldin/user/register/dto/ExperienceInfo.hbm.xml"/>
+        <mapping resource="com/kaldin/user/register/dto/TechInfo.hbm.xml"/>
+        <mapping resource="com/kaldin/user/register/dto/User.hbm.xml"/>
+        <mapping resource="com/kaldin/questionbank/technology/dto/CompTechInfo.hbm.xml"/>
+        <mapping resource="com/kaldin/questionbank/subject/dto/Subject.hbm.xml"/>
+        <mapping resource="com/kaldin/questionbank/level/dto/LevelDTO.hbm.xml"/>
+        <mapping resource="com/kaldin/questionbank/topic/dto/Topic.hbm.xml"/>
+        <mapping resource="com/kaldin/questionbank/question/dto/Question.hbm.xml"/>
+        <mapping resource="com/kaldin/questionbank/answer/dto/Answer.hbm.xml"/>
+       	<mapping resource="com/kaldin/test/settest/dto/QuestionPaper.hbm.xml"/>
+       	<mapping resource="com/kaldin/test/settest/dto/TopicQuestion.hbm.xml"/>
+       	<mapping resource="com/kaldin/test/scheduletest/dto/TestSchedule.hbm.xml"/>
+       	<mapping resource="com/kaldin/user/register/dto/Candidate.hbm.xml"/>
+       	<mapping resource="com/kaldin/test/executetest/dto/TestResult.hbm.xml" />
+       	<mapping resource="com/kaldin/test/executetest/dto/TestGiven.hbm.xml" />
+       	<mapping resource="com/kaldin/test/executetest/dto/TestQuestAns.hbm.xml" />
+        <mapping resource="com/kaldin/company/register/dto/CompanyDTO.hbm.xml" />
+        <mapping resource="com/kaldin/setting/newpassword/dto/newpass.hbm.xml" />       
+       	<mapping resource="com/kaldin/setting/university/dto/UniversityInfoDTO.hbm.xml" />
+       	<mapping resource="com/kaldin/common/stateCountry/country/dto/CountryDTO.hbm.xml" />
+       	<mapping resource="com/kaldin/common/stateCountry/state/dto/StateDTO.hbm.xml" />
+       	<mapping resource="com/kaldin/user/register/dto/UnregisteredUsersDTO.hbm.xml" />
+       	<mapping resource="com/kaldin/group/dto/Groups.hbm.xml"/>
+       	<mapping resource="com/kaldin/group/dto/UserGroup.hbm.xml"/>
+       	<mapping resource="com/kaldin/email/dto/EmailTemplate.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,243 @@
+#sidebar {
+	float: left;
+	width: 220px;
+	padding: 10px;
+	margin: 0 20px 0 0;
+	border-right: 1px dotted green;
+	min-height: 530px;
+	height: auto;
+}
+
+.sidebar_nav li { 
+	display: inline;	
+	float: left;
+	width: 220px;
+	padding: 10px 5px;
+	border-bottom: 1px dotted green;
+}
+.sidebar_nav a, .sidebar_nav a:link{
+	color: grey;
+}
+.sidebar_nav a:hover, .sidebar_nav a.active {
+	color: green;
+}
+
+tr.even { background-color: #DBF2B0; }
+tr.odd { background-color: #FFFFFF; }
+
+table.display th, ul.rt_tabnav, .dash_heading, .dash_full th, .dash_half th, .dash_small th, .dash_left th, .dash_right th  {
+	color: #FFFFFF;
+	background: #DBF2B0;
+	background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+ 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+ 	background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0 transparent;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#main h3, #middle_section h3 {
+	background: #DBF2B0;
+	color: green;
+	font-size: 1.5em;
+	font-weight: normal;
+	height: auto;
+	line-height: 2.5;
+	padding: 0 1em;
+	border: 1px solid green;
+	border-bottom-width: 3px;
+}
+
+.note {
+	background: #DBF2B0 url(../images/note.png) 5px 8px no-repeat;
+	color: green;
+	border: 1px solid green;
+	border-left: 4px solid green;
+	border-bottom: 1px solid green;		
+}
+.info {
+	background: #DBF2B0 url(../images/info.png) 5px 8px no-repeat;
+	color: green;
+	border: 1px solid green;
+	border-left: 4px solid green;
+	border-bottom: 1px solid green;	
+}
+.pagecount {
+	color:#3e85b5;
+	font-weight:700;
+}
+
+#topnav li a {
+	color: green;
+}
+
+#nav li a {
+	color: green;
+	/* border: 1px solid;
+	border-radius: 5px;
+	margin-right: 5px; */
+}
+#nav li a:hover {
+	color: green;
+	border: 1px solid;
+	border-radius: 5px;
+}
+#nav li.active a {
+	color: green;
+	padding: 5px 8px 5px 8px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-top: 3px solid green;
+}
+
+.btn_green, .btn_green_sml {
+	color: #fff !important;
+	text-shadow: -1px -1px 0 green;
+	-moz-text-shadow: -1px -1px 0 green;
+	-webkit-text-shadow: -1px -1px 0 green;
+	background: green;
+	background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+ 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=green, endColorstr=#DBF2B0);
+ 	background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	border: 1px solid #DBF2B0;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.btn_green:hover, .btn_green_sml:hover {
+	color: #FFFFFF;
+	background: #DBF2B0;
+	background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+ 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+ 	background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+}
+
+.btn_orange, .btn_orange_sml {
+	color: #fff !important;
+	text-shadow: -1px -1px 0 green;
+	-moz-text-shadow: -1px -1px 0 green;
+	-webkit-text-shadow: -1px -1px 0 green;
+	background: green;
+	background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+ 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=green, endColorstr=#DBF2B0);
+ 	background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	border: 1px solid #DBF2B0;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.btn_orange:hover, .btn_orange_sml:hover {
+	color: #FFFFFF;
+	text-shadow: -1px -1px 0 green;
+	-moz-text-shadow: -1px -1px 0 green;
+	-webkit-text-shadow: -1px -1px 0 green;	
+	background: #DBF2B0;
+	background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+ 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+ 	background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+ 	border: 1px solid #DBF2B0;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.steps li a.questions{ width: 165px; height: 163px; 
+background: green;
+background: -moz-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, green), color-stop(0.7, #DBF2B0));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+display: block; border-radius: 50%; margin-left: 25px; border: 1px solid green; }
+.steps li a.exams { width: 165px; height: 163px; 
+background: green;
+background: -moz-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, green), color-stop(0.7, #DBF2B0));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+display: block; border-radius: 50%; margin-left: 25px; border: 1px solid green; }
+.steps li a.users{ width: 165px; height: 163px; 
+background: green;
+background: -moz-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, green), color-stop(0.7, #DBF2B0));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+display: block; border-radius: 50%; margin-left: 25px; border: 1px solid green; }
+.steps li a.certificates{ width: 165px; height: 163px; 
+background: green;
+background: -moz-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, green), color-stop(0.7, #DBF2B0));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+display: block; border-radius: 50%; margin-left: 25px; border: 1px solid green; }
+.steps li a.upgrade { width: 165px; height: 163px; 
+background: green;
+background: -moz-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, green), color-stop(0.7, #DBF2B0));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, green 0%, #DBF2B0 70%) repeat scroll 0 0;
+display: block; border-radius: 50%; margin-left: 25px; border: 1px solid green; }
+
+.steps li a.questions:hover { 
+background: #DBF2B0;
+background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+}
+.steps li a.exams:hover { 
+background: #DBF2B0;
+background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+}
+.steps li a.users:hover { 
+background: #DBF2B0;
+background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+}
+.steps li a.certificates:hover { 
+background: #DBF2B0;
+background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+}
+.steps li a.upgrade:hover { 
+background: #DBF2B0;
+background: -moz-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -o-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #DBF2B0), color-stop(0.7, green));
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#DBF2B0, endColorstr=green);
+background: -ms-linear-gradient(center bottom, #DBF2B0 0%, green 70%) repeat scroll 0 0;
+}
+
+.stepstext{ color: #FFFFFF; font-weight: bold; font-size: 16px; width: 165px; text-align: center; padding-top: 5px;}
+.fcredit{ color: #FFFFFF; font-weight: bold; font-size: 16px; width: 165px; text-align: center; margin-top: 0;margin-left: 0;}
+.questimg { background: url(../images/questionicon.png) center center no-repeat; height: 54px; margin-top: 46px;}
+.examsimg { background: url(../images/examicon.png) center center no-repeat; height: 54px; margin-top: 46px;}
+.usersimg { background: url(../images/usericon.png) center center no-repeat; height: 54px; margin-top: 46px;}
+.certiimg { background: url(../images/certificateicon.png) center center no-repeat; height: 54px; margin-top: 46px;}
+.upgradeimg { background: url(../images/upgradeicon.png) center center no-repeat; height: 54px; margin-top: 46px;}

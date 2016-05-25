@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.user.register.dto.UnregisteredUsersDTO" table="exm_unregisteredUsers">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exam class
+		</meta>
+		<id name="id" column="Id" type="int">
+			<generator class="native"></generator>
+		</id>
+		<property name="emailId" column="emailId" type="string"></property>
+		<property name="status" column="status" type="int"></property>
+		<property name="companyId" column="companyId" type="int"></property>
+	</class>
+</hibernate-mapping>

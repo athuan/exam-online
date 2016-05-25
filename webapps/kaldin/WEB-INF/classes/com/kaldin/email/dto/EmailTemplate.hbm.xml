@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.email.dto.EmailTemplateDTO" table="exm_mailtemplate">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for
+			exm_mailtemplate class
+		</meta>
+
+		<id name="id" column="id" type="int">
+			<generator class="native"></generator>
+		</id>		
+		<property name="companyid" column="companyid" type="int"></property>
+		<property name="mailtype" column="mailtype" type="string"></property>
+		<property name="mailsubject" column="mailsubject" type="string"></property>
+		<property name="mailcontent" column="mailcontent" type="string"></property>
+		<property name="type" column="type" type="string"></property>
+		<property name="fromfield" column="fromfield" type="string"></property>
+		<property name="ccfield" column="ccfield" type="string"></property>
+		<property name="bccfield" column="bccfield" type="string"></property>
+		<property name="header" column="header" type="string"></property>
+		<property name="footer" column="footer" type="string"></property>
+
+	</class>
+</hibernate-mapping>

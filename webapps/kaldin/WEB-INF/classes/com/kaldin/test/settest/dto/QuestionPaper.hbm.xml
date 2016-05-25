@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.test.settest.dto.QuestionPaperDTO" table="exm_test">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exam class
+		</meta>
+
+		<id name="testId" column="testid" type="string"></id>
+		<property name="testName" column="testname" type="string"></property>
+		<property name="duration" column="duration" type="int"></property>
+		<property name="noOfQuestions" column="noofquestions" type="int"></property>
+		<property name="passingMarks" column="passingmarks" type="int"></property>
+		<property name="totalMarks" column="totalmarks" type="int"></property>
+		<property name="negativeMarks" column="negativemarks" type="int"></property>
+		<property name="perQuestionMarks" column="perquestionmarks"	type="int"></property>
+		<property name="levelid" column="levelid" type="int"></property>
+		<property name="companyId" column="companyid" type="int"></property>
+		<property name="comments" column="comments" type="string"></property>
+		<property name="exmURL" column="exmurl" type="string"></property>
+		<property name="videoURL" column="videourl" type="string"></property>
+		<property name="examInfoFile" column="examinfofile" type="string"></property>
+		<property name="selectedQuestions" column="selectedquestions" type="string"></property>
+		<property name="testType" column="testtype" type="int"></property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.user.register.dto.PersonalInfoDTO" table="exm_candidate_profile">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exam class
+		</meta>
+
+		<id name="personalId" column="personalid" type="int">
+			<generator class="native"></generator>
+		</id>
+				
+		<property name="firstName" column="firstname" type="string"	not-null="true"></property>
+		
+		<property name="lastName" column="lastname" type="string" not-null="true"></property>
+
+		<property name="emailId" column="email" type="string" not-null="true"></property>
+		
+		<property name="birthdate" column="birthdate" type="date"></property>
+
+		<property name="address1" column="address1" type="string"></property>
+
+		<property name="address2" column="address2" type="string"></property>
+
+		<property name="mobileNumber" column="mobileNumber" type="long"></property>
+
+		<property name="phoneNumber" column="phoneNumber" type="long"></property>
+
+		<property name="city" column="city" type="string"></property>
+
+		<property name="state" column="state" type="string" ></property>
+		
+		<property name="country" column="country" type="string" ></property>
+		
+		<property name="zipcode" column="zipcode" type="int" ></property>
+		
+		<property name="title" column="title" type="string" ></property>
+		
+		<many-to-one name="candidateDTO" class="com.kaldin.user.register.dto.CandidateDTO"
+                column="candidateid" />
+	</class>
+</hibernate-mapping>

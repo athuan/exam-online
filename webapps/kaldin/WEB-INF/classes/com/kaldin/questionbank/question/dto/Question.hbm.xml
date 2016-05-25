@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.questionbank.question.dto.QuestionDTO" table="exm_question">
+		<meta attribute="class-description">
+			This is the Hibernate Mapping file for exm_question class
+		</meta>
+
+		<id name="questionid" column="questionid" type="int">
+			<generator class="native"></generator>
+		</id>
+
+		<property name="questiontype" column="questiontype" type="int" not-null="true"></property>
+		<property name="question" column="question" type="string" not-null="true"></property>
+		<property name="levelid" column="levelid" type="int" not-null="true"></property>
+		<property name="occurrance" column="occurance" type="int"></property>
+		<property name="showAsMCQ" column="showasMCQ" type="int" not-null="true"></property>
+		<property name="topicid" column="topicid" type="int" not-null="true"></property>
+		<property name="companyId" column="companyid" type="int" not-null="true"></property>
+		<property name="subjectId" column="subjectid" type="int" not-null="true"></property>
+		<property name="questionHint" column="questionhint" type="string"></property>
+		<property name="uid" column="uid" type="string"></property>
+		<property name="questionURL" column="questionurl" type="string"></property>
+	</class>
+</hibernate-mapping>
