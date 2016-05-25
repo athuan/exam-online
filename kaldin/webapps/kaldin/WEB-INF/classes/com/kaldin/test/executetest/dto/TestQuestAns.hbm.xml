@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.kaldin.test.executetest.dto.TestQuestAnsDTO" table="exm_test_questionanswer">
+	
+		
+		<id name="dummyID" type="int" column="dummyid">
+			<generator class="native"></generator>             
+		</id> 
+		<property name="questId" column="questionid" type="int">
+		</property>
+		<property name="answer" column="answer" type="string">
+		</property>
+		<property name="resultid" column="resultid" type="int" >
+		</property>
+		
+		
+	</class>
+</hibernate-mapping>

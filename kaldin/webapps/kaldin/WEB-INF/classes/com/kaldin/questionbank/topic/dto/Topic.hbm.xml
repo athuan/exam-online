@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.questionbank.topic.dto.TopicDTO" table="exm_topic">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exam class
+		</meta>
+
+		<id name="topicId" column="topicid" type="int">
+			<generator class="native"></generator>
+		</id>
+
+		<property name="topicName" column="topicname" type="string"
+			not-null="true">
+		</property>
+		
+		<property name="subjectId" column="subjectid" type="int"
+			not-null="true">
+		</property>
+		<property name="companyId" column="companyid" type="int"
+			not-null="true">
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+ , , PERSONAL INFO, , , , , ACADEMICS, , , , EXPERIENCE
+GroupName, email , Firstname , Lastname , City ,  Mobilenumber , Qualification , University , Year of passing , Percentage , Companyname , Designation , Joining Date , Leaving Date
+
+kaldin Test Group,Exampleuser1@gmail.com,pss,ss,pune,9420271524,MCA,Other,2014,70.0,s5infotech,software trainee,2015-02-05,2015-02-16
+ , , , , , ,B.A,Other,1973,78.0,ggfgdfg,dfgdfg,2015-02-12,2015-02-13
+ , , , , , ,B.Com,north maharashtra,1962,72.0, , , , ,
+kaldin Test Group,Exampleuser2@gmail.com,user2,u,fyhfgh,940000000000,MCA,Other,2013,57.0,gfhbfgh,bgfh,2014-01-08,2014-01-08
+kaldin Test Group,Exampleuser4@gmail.com,user4,fgd,fgd,9800000000,MCA,Other,1772,54.0,fgghdfh,gdfg,2015-02-12,2015-02-12
+kaldin Test Group,Exampleuser5@gmail.com,user5,fdsf,gdfgf,9400000087,BCA,Other,2014,67.0,bdfg,fgdg,2014-01-15,2014-01-15
+kaldin Test Group,Exampleuser6@gmail.com,user6,gfh,hfgh,9898989897,MCA,North Maharashtra University,2014,78.0,bhfg,gdfg,2014-07-09,2014-07-09
+kaldin Test Group,Exampleuser7@gmail.com,user7,fhg,gfd,9400000001,BA,Other,2013,65.0,dggdf,qeawd,2015-02-05,2015-02-05
+kaldin Test Group,Exampleuser8@gmail.com,user8,gfh,gfgf,1111111110,MCA,Other,1992,76.0,gdsgd,gdfg,2015-02-05,2015-02-05
+kaldin Test Group,Exampleuser9@gmail.com,user9,gfh,gfh,8700000000,BCA,Other,2013,78.0,gdgdf,hrty,2015-02-05,2015-02-05
+kaldin Test Group,Exampleuser10@gmail.com,user10,vcfv,dgd,9800000000,BCA,Other,2012,87.0,jfghj,ade,2015-02-05,2015-02-05
+kaldin Test Group,testuser@example.com,testuserfirstname,testuserlastname,MyCity,0,MBA,Other,2015,78.0,aaa,bhfgh,2014-01-08,2014-01-08
+kaldin Test Group,sampletest@example.com,sampletestfirstname,sampletestlastname,MyCity,0,MCA,Other,2013,87.0,gfhfgnj,gfdg,2014-01-08,2014-01-08
+Default Group,newuser002@gmail.com,user002,newuser002,null,9898989898,MCA,Other,1992,72.0,Test ,Team lead,2015-02-05,2015-02-06
+ , , , , , ,B.B.A,Other,1979,90.0, , , , ,
+Default Group,newuser003@gmail.com,newuser003,newuser,sa,10000000000,MVSC,Other,1993,63.0,test,PM,2015-02-05,2015-02-06
+Default Group,priyal@gmail.com,test,test,aa,0,B.A,Other,1994,57.0,Toyto,mvh,2015-02-12,2015-02-06
+Default Group,pari@gmsail.com,pornima,bharate,fgd,9898989898,MCA,Other,2013,78.0,bgdfg,nghf,2014-01-08,2014-01-08
+Default Group,Abdulsir@gmail.com,abdul,khan,pune,9800000000,B.E/B.Tech,Other,1974,76.0,tyu,tryrt,2015-02-13,2015-02-14
+Default Group,chetanpatil@gmail.com, , , , , , , , , , , , ,

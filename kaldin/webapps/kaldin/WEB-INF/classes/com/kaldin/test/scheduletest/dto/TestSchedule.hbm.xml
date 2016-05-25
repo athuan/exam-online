@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.kaldin.test.scheduletest.dto.TestScheduleDTO" table="exm_test_schedule">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exm_test_schedule class
+		</meta>
+		
+		<id name="schId" type="int" column="dummyid">
+			<generator class="native"></generator>             
+		</id> 
+		<property name="testId" column="testid" type="string">
+		</property>
+		<property name="userId" column="userid" type="int">
+		</property>
+		<property name="startDate" column="startdate" type="date" >
+		</property>
+		<property name="endDate" column="enddate" type="date" >
+		</property>
+		<property name="companyId" column="companyid" type="int" >
+		</property>
+		<property name="mailSendStatus" column="mailsendstatus" type="int" >
+		</property>
+		<property name="examId" column="examid" type="int">
+		</property>
+		<property name="exmUrl" column="exmurl" type="string">
+		</property>
+	</class>
+</hibernate-mapping>

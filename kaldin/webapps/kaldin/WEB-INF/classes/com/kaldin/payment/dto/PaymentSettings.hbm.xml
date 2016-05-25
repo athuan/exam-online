@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.kaldin.payment.dto.PaymentSettingsDTO" table="paymentsettings">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exam class
+		</meta>
+		<id name="loginid" type="int" column="loginid">
+			<generator class="native"></generator>             
+		</id> 
+		<property name="paypalapiusername" column="paypalapiusername" type="string"></property>
+		<property name="paypalapipassword" column="paypalapipassword" type="string" ></property>
+		<property name="privatekey" column="privatekey" type="string" ></property>
+		<property name="certificatefilename" column="certificatefilename" type="string" ></property>
+		<property name="paypalemail" column="paypalemail" type="string" ></property>
+		<property name="ppenvironment" column="ppenvironment" type="string" ></property>
+		<property name="gcmerchantid" column="gcmerchantid" type="string" ></property>
+		<property name="gcmerchantkey" column="gcmerchantkey" type="string" ></property>
+		<property name="gcenvironment" column="gcenvironment" type="string" ></property>
+		<property name="paypalapisignature" column="paypalapisignature" type="string" ></property>
+		<property name="authorizeid" column="authorizeid" type="string" ></property>
+		<property name="authorizekey" column="authorizekey" type="string" ></property>
+		<property name="paymentmethod" column="paymentmethod" type="string" ></property>
+		<property name="authenvironment" column="authenvironment" type="string" ></property>
+</class>
+</hibernate-mapping>

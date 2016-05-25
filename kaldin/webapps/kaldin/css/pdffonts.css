@@ -1,0 +1,72 @@
+@font-face {
+ font-family: 'Akronim';
+ font-style: normal;
+ font-weight: 300;
+ src: local('Akronim-Regular'), url(../font/Akronim-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'Cambo';
+ font-style: normal;
+ font-weight: 300;
+ src: local('Cambo-Regular'), url(../font/Cambo-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'DiplomataSC';
+ font-style: normal;
+ font-weight: 300;
+ src: local('DiplomataSC-Regular'), url(../font/DiplomataSC-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'Engagement';
+ font-style: normal;
+ font-weight: 300;
+ src: local('Engagement-Regular'), url(../font/Engagement-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'Fenix';
+ font-style: normal;
+ font-weight: 300;
+ src: local('Fenix-Regular'), url(../font/Fenix-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'FugazOne';
+ font-style: normal;
+ font-weight: 300;
+ src: local('FugazOne-Regular'), url(../font/FugazOne-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'Lemon';
+ font-style: normal;
+ font-weight: 300;
+ src: local('Lemon-Regular'), url(../font/Lemon-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'LindenHill';
+ font-style: normal;
+ font-weight: 300;
+ src: local('LindenHill-Regular'), url(../font/LindenHill-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NewRocker';
+ font-style: normal;
+ font-weight: 300;
+ src: local('NewRocker-Regular'), url(../font/NewRocker-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'Playball';
+ font-style: normal;
+ font-weight: 300;
+ src: local('Playball-Regular'), url(../font/Playball-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'PT_Serif-Caption-Web';
+ font-style: normal;
+ font-weight: 300;
+ src: local('PT_Serif-Caption-Web-Regular'), url(../font/PT_Serif-Caption-Web-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'Stalemate';
+ font-style: normal;
+ font-weight: 300;
+ src: local('Stalemate-Regular'), url(../font/Stalemate-Regular.ttf) format('truetype');
+}

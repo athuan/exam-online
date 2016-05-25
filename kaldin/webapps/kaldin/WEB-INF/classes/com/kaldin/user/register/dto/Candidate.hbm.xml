@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.user.register.dto.CandidateDTO" table="exm_candidate">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exam class
+		</meta>
+		<id name="userId" column="userid" type="int">
+			<generator class="native"></generator>
+		</id>
+		<property name="email" column="email" type="string">
+		</property>
+		<property name="password" column="password" type="string">
+		</property>
+		<property name="status" column="status" type="int">
+		</property>
+		<property name="companyId" column="companyid" type="int">
+		</property>
+		<property name="question" column="question" type="string">
+		</property>
+		<property name="answer" column="answer" type="string">
+		</property>
+         <property name="tech" column="tech" type="string">
+		 </property>
+         <property name="isdeleted" column="isdeleted" type="int">
+		 </property>
+	</class>
+</hibernate-mapping>

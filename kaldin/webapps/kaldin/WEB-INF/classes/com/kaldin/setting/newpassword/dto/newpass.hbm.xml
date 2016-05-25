@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+	<class name="com.kaldin.setting.newpassword.dto.NewpasswordDTO" table="exm_candidate" >
+		<meta attribute="class-description" >
+			This is the HiBernate Mapping file for subject class
+		</meta>
+
+		<id name="userid" column="userid" type="int">
+			<generator class="native"></generator>
+		</id>
+
+		<property name="email" column="email" type="string">
+		</property>
+		<property name="pwd" column="password" type="string">
+		</property>
+		<property name="status" column="status" type="int">
+		</property>
+		<property name="companyid" column="companyid" type="int">
+		</property>
+		<property name="question" column="question" type="string">
+		</property>
+		<property name="answer" column="answer" type="string">
+		</property>
+		<property name="isdeleted" column="isdeleted" type="int">
+		</property>
+
+		
+	</class>
+</hibernate-mapping>

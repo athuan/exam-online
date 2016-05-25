@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.user.register.dto.AcademicInfoDTO" table="exm_candidate_academic">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for exam class
+		</meta>
+		
+		<id name="academicId" column="academicid" type="int">
+			<generator class="native"></generator>
+		</id>
+		
+		<property name="qualification" column="qualification" type="string"
+			not-null="true">
+		</property>
+
+		<property name="passingYear" column="passingyear" type="int"
+			not-null="true">
+		</property>
+
+		<property name="percentage" column="percentage" type="float"
+			not-null="true">
+		</property>
+
+		<property name="university" column="university" type="string" not-null="true">
+		</property>
+		
+		<many-to-one name="candidateDTO" class="com.kaldin.user.register.dto.CandidateDTO" column="candidateid" cascade="all"/>	
+	</class>
+</hibernate-mapping>

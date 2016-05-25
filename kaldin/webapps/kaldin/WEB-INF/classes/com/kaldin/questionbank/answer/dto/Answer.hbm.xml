@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.questionbank.answer.dto.AnswerDTO" table="exm_answers">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for Answer Table
+		</meta>
+		<id name="answerId" column="answerid" type="int">
+			<generator class="native"></generator>
+		</id>
+		<property name="optionA" column="optionA" type="string"
+			not-null="true">
+		</property>
+		<property name="optionB" column="optionB" type="string"
+			not-null="true">
+		</property>
+		<property name="optionC" column="optionC" type="string">
+		</property>
+		<property name="optionD" column="optionD" type="string">
+		</property>
+		<property name="optionE" column="optionE" type="string">
+		</property>
+		<property name="optionF" column="optionF" type="string">
+		</property>
+		<property name="optionG" column="optionG" type="string">
+		</property>
+		<property name="answer" column="answer" type="string"
+			not-null="true">
+		</property>
+		<property name="questionId" column="questionid" type="int"
+			not-null="true">
+		</property>
+	</class>
+</hibernate-mapping>

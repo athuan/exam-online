@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.kaldin.group.dto.GroupDTO" table="exm_group">
+		<meta attribute="class-description">
+			This is the HiBernate Mapping file for
+			exm_group class
+		</meta>
+
+		<id name="groupid" column="groupid" type="int">
+			<generator class="native"></generator>
+		</id>
+		
+		<property name="groupname" column="groupname" type="string" not-null="true"></property>
+		
+		<property name="companyid" column="companyid" type="int" not-null="true"></property>
+
+	</class>
+</hibernate-mapping>

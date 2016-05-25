@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.kaldin.test.executetest.dto.TestGivenDTO" table="exm_test_given">
+	
+		
+		<id name="testGivenId" type="int" column="test_givenid">
+			<generator class="native"></generator>             
+		</id> 
+		<property name="TestId" column="testid" type="string">
+		</property>
+		<property name="userId" column="userid" type="int">
+		</property>
+		<property name="testDate" column="testdate" type="date" >
+		</property>
+		<property name="examId" column="examid" type="int">
+		</property>
+		
+	</class>
+</hibernate-mapping>
